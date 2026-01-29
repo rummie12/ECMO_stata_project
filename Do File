@@ -2,7 +2,7 @@ clear
 version 19
 use "C:\Users\laxfr\Desktop\All-Comers\Onc-BMT\Stata\Data\All Admitted Onc-BMT Modified Table 1 Data (Updated).dta"
 
-merge m:m DischargeID using "C:\Users\laxfr\Desktop\All-Comers\Trisomy\Stata\Data\All Trisomy Patients Modified Table 1 (Updated).dta"
+m:m DischargeID using "C:\Users\laxfr\Desktop\All-Comers\Trisomy\Stata\Data\All Trisomy Patients Modified Table 1 (Updated).dta"
 
 rename _merge _merge_trisomy
 tab high_risk_group_onc high_risk_group_T1318
